@@ -16,7 +16,7 @@ void print(const vector<Type>&A)
     cout<<endl;
 }
 
-template  <typename Type,typename N>
+template  <typename Type>
 void print(const vector<vector<Type>> &A)
 {
     for(auto item:A)
