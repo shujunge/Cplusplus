@@ -1,9 +1,9 @@
-#include <iostream>
+#include<iostream>
 #include<list>
 #include<vector>
-#include <iterator>
+#include<iterator>
 #include<deque>
-#include <string>
+#include<string>
 using namespace std;
 
 template  <typename Type>
