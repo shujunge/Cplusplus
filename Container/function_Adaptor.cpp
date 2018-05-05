@@ -4,7 +4,7 @@
 #include<iterator>
 #include<map>
 #include<algorithm>
-#include <functional>
+#include<functional>
 #include<numeric>
 
 using namespace std;
