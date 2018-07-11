@@ -72,7 +72,20 @@ __syncthreads();
 * constant memory(read_only per_grid)
 * texture memory(read_only per_grid)
 
+### 1.7调试
+内存泄漏检测:
+---
+```apple js
+>> valgrind --tool=memcheck --leak-check=yes ./out
 
+```
+cuda命令行编译
+---
+```
+>>> nvcc filename.cu -o filename
+>>> nvprof ./filename
+
+```
 
 ## 2. TensorRT</br>
 　　TensorRT是一种高性能神经网络推理(Inference)引擎，用于在生产环境中部署深度学习应用程序，应用有图像分类、分割和目标检测等，可提供最大的推理吞吐量和效率。TensorRT是第一款可编程推理加速器，能加速现有和未来的网络架构。TensorRT需要CUDA的支持。TensorRT包含一个为优化生产环境中部署的深度学习模型而创建的库，可获取经过训练的神经网络(通常使用32位或16位数据)，并针对降低精度的INT8运算来优化这些网络。借助CUDA的可编程性，TensorRT将能够加速助推深度神经网络日益多样化、复杂的增长趋势。通过TensorRT的大幅度加速，服务提供商能够以经济实惠的成本部署这些计算密集型人工智能工作负载.</br>
