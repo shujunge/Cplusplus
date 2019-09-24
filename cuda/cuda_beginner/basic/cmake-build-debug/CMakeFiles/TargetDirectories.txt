@@ -1,0 +1,3 @@
+/home/zf/Desktop/git_warehouse/Cplusplus/cuda/cuda_beginner/basic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zf/Desktop/git_warehouse/Cplusplus/cuda/cuda_beginner/basic/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zf/Desktop/git_warehouse/Cplusplus/cuda/cuda_beginner/basic/cmake-build-debug/CMakeFiles/basic.dir

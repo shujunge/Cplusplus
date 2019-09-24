@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/cuda_beginner.dir/main.cpp.o  -o cuda_beginner 

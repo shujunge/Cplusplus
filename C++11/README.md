@@ -1,5 +1,5 @@
 # Cplusplus
-Ｃ++11基本的编程技巧
+c++11基本的编程技巧
 C++中的容器大致可以分为两个大类：顺序容器和关联容器。顺序容器中有包含有顺序容器适配器。
 
 顺序容器：将单一类型元素聚集起来成为容器，然后根据位置来存储和访问这些元素。主要有vector、list、deque（双端队列）。顺序容器适配器：stack、queue和priority_queue。
@@ -37,3 +37,6 @@ C++中的容器大致可以分为两个大类：顺序容器和关联容器。�
 3.set
 
 4.multimap ,multiset
+
+
+* [数据结构](http://lotleaf.com/algorithm/algorithm-exercises-answer-1.html)
